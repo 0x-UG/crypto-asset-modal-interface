@@ -55,9 +55,8 @@ p {
 .eth-balance {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin-bottom: 1.6em;
-	padding: 0 1em;
 }
 
 .lhs {
@@ -69,6 +68,7 @@ p {
 .rhs {
 	display: flex;
 	align-items: center;
+	margin-left: 12px;
 }
 
 .form {
@@ -109,7 +109,7 @@ button:hover,
 	cursor: pointer;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
 	.container {
 		width: 70vw;
 	}
