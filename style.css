@@ -111,12 +111,12 @@ button:hover,
 
 @media (max-width: 800px) {
 	.container {
-		width: 70vw;
+		width: 80vw;
 	}
 
 	.eth-balance {
 		display: flex;
 		justify-content: space-between;
-		margin-left: 0;
+		margin-right: 0;
 	}
 }
