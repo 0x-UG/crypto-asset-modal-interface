@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: bisque;
+	font-family: "Red Hat Display", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+/* typography */
+
+p {
+	margin: 0;
+}
+
+.blue {
+	color: rgb(40, 40, 230);
+	font-weight: bold;
+}
+
+.asset {
+	font-size: 1rem;
+}
+
+.input-text {
+	margin-bottom: 0.5em;
+}
+
+/* typography ends here */
+
+.container {
+	background-color: white;
+	width: 35%;
+	margin: 0 auto;
+	padding: 1.5em 3em;
+	border-radius: 1em;
+}
+
+.sendx {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.eth,
+.amount {
+	display: flex;
+	flex-direction: column;
+}
+
+.eth-balance {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1.6em;
+	padding: 0 1em;
+}
+
+.lhs {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
+
+.rhs {
+	display: flex;
+	align-items: center;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.form-input {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.4em;
+	padding: 0.8em;
+	font-size: 1rem;
+	border: none;
+	background-color: rgb(40, 40, 230);
+	color: white;
+	border-radius: 0.8em;
+}
+
+input {
+	height: 3.5em;
+	border-radius: 0.8em;
+	padding: 0.7em;
+	border: 2px solid rgb(173, 173, 173);
+	font-size: 1rem;
+}
+
+button:hover,
+.material-icons:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+	.container {
+		width: 70vw;
+	}
+}
