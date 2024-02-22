@@ -12,7 +12,6 @@ body {
 }
 
 /* typography */
-
 p {
 	margin: 0;
 }
@@ -29,11 +28,10 @@ p {
 .input-text {
 	margin-bottom: 0.5em;
 }
-
 /* typography ends here */
 
 .container {
-	background-color: white;
+	background-color: #ffffff;
 	width: 35%;
 	margin: 0 auto;
 	padding: 1.5em 3em;
@@ -82,6 +80,14 @@ p {
 	flex-direction: column;
 }
 
+input {
+	height: 3.5em;
+	border-radius: 0.8em;
+	padding: 0.7em;
+	border: 2px solid rgb(228, 224, 224);
+	font-size: 1rem;
+}
+
 button {
 	display: flex;
 	justify-content: center;
@@ -93,14 +99,6 @@ button {
 	background-color: rgb(40, 40, 230);
 	color: white;
 	border-radius: 0.8em;
-}
-
-input {
-	height: 3.5em;
-	border-radius: 0.8em;
-	padding: 0.7em;
-	border: 2px solid rgb(173, 173, 173);
-	font-size: 1rem;
 }
 
 button:hover,
