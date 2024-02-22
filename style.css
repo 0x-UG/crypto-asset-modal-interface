@@ -113,4 +113,10 @@ button:hover,
 	.container {
 		width: 70vw;
 	}
+
+	.eth-balance {
+		display: flex;
+		justify-content: space-between;
+		margin-left: 0;
+	}
 }
